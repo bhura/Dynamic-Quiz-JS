@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Quiz Test </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Open+Sans" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <header class="title">
+        <h1> JS Dynamic Quiz Test</h1>
+      </header>
+      <div class="main-wrapper">
+        <h3> The Quiz Test </h3>
+        <p>The test contains 10 Quenstions and no time limit. <br>
+            This will reflect your gneral knowledge on Web Development.
+         </p>
+         <h3> Score </h3>
+         <p> 1 point for each correct answer and total score will be displayed at the end of the quiz. </p>
+         <h3> Start the Quiz </h3>
+         <p> Good Luck !</p>
+         <div class="quiz-button"><a id="seewho2" href="#seewho">Start the Quiz</a></div>
+
+     </div>
+     <!-- Main Wrapper end -->
+     <div class="quiz-container">
+       <div class="question"> 1. This is Sample Question</div>
+       <ul class="choiceList">
+         <li>
+          <input type="radio" name="quizRadio" value="0"> choice 1
+         </li>
+         <li>
+          <input type="radio" name="quizRadio" value="0"> choice 1
+         </li>
+         <li>
+          <input type="radio" name="quizRadio" value="0"> choice 1
+         </li>
+         <li>
+          <input type="radio" name="quizRadio" value="0"> choice 1
+         </li>
+       </ul>
+       <div class="quizMessage "> Please select an option.</div>
+       <div class="quiz-button nextButton"><a id="seewho2" href="#seewho">Next Question</a></div>
+     </div>
+     <div class="result-container">
+       <div class="result"></div>
+       <div class="play-again"><a id="seewho2" href="#seewho">Play Again</a></div>
+     </div>
+     <!-- End Quiz container -->
+
+    </div>
+    <!-- End container -->
+
+    <footer>
+      <div class='footnote'>
+        <h2> Bhuwan </h2>
+        <a href="https://www.linkedin.com/in/bhuwan-shrestha-34406b98/" target="_blank">
+        <img src="http://www.freeiconspng.com/uploads/linkedin-icon-14.png">
+
+        <a href="https://github.com/deesk/Tic-Tac-reTro" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ei-sc-github.svg/768px-Ei-sc-github.svg.png">
+        </a>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+    <script src="js/dyQuiz.js"> </script>
+</body>
+</html>

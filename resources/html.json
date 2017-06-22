@@ -1,0 +1,41 @@
+[{
+	"question": "What does HTML stand for?",
+	"choices": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language"],
+	"answer": 0
+}, {
+	"question": "Who is making the Web standards?",
+	"choices": ["Google", "Mozilla", "Microsoft", "The World Wide Web Consortium"],
+	"answer": 3
+}, {
+	"question": " Choose the correct HTML element for the largest heading:",
+	"choices": ["<h1>", "<heading>", "<h6>", "<head>"],
+	"answer": 0
+}, {
+	"question": "What is the correct HTML element for inserting a line break?",
+	"choices": ["<br>", "<lb>", "<break>"],
+	"answer": 0
+}, {
+	"question": "hat is the correct HTML for adding a background color?",
+	"choices": ["<background>yellow</background>", "<body style=\"background-color:yellow;\">", " <body bg=\"yellow\">"],
+	"answer": 1
+}, {
+	"question": "Choose the correct HTML element to define important text",
+	"choices": ["<important>", "<i>", "<strong>", "<b>"],
+	"answer": 1
+}, {
+	"question": "Choose the correct HTML element to define emphasized text",
+	"choices": ["<em>", "<i>", "<italic>"],
+	"answer": 0
+}, {
+	"question": "Which character is used to indicate an end tag?",
+	"choices": ["*", "<", "/", "^"],
+	"answer": 2
+}, {
+	"question": "Inline elements are normally displayed without starting a new line.",
+	"choices": ["true", "false"],
+	"answer": 0
+}, {
+	"question": "How can you make a bulleted list?",
+	"choices": ["<list>", "<ul>", "<dl>", "<ol>"],
+	"answer": 3
+}]
